@@ -3,11 +3,12 @@ import { ButtonHTMLAttributes } from "react";
 // Styles
 import { cva, type RecipeVariantProps } from "@/styled-system/css";
 
+/** Inspired from Class Variance Authority */
 const buttonClassName = cva({
   base: {
     width: "100%",
     padding: "0.5rem",
-    rounded: "4px",
+    rounded: "0.25rem",
     textAlign: "center",
     cursor: "pointer",
   },

@@ -2,11 +2,13 @@
 import { Button } from "@/components/ui";
 
 // Styles
+import { css } from "@/styled-system/css";
 import { flex } from "@/styled-system/patterns";
 
 export const Header = () => (
   <header
-    className={flex({
+    className={css({
+      display: "flex",
       justifyContent: "space-between",
       alignItems: "center",
       borderBottom: "1px solid",

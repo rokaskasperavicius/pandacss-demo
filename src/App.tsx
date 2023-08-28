@@ -10,12 +10,14 @@ export const App = () => (
   <div className={css({ maxWidth: "40rem", margin: "auto" })}>
     <Header />
 
-    <div className={vstack({ gap: "10px", marginTop: "4rem" })}>
-      <h1 className={css({ fontSize: "20px" })}>Sign In for Panda Content</h1>
+    <div className={vstack({ gap: "1.25rem", marginTop: "4rem" })}>
+      <h1 className={css({ fontSize: "1.25rem" })}>
+        Sign In for Panda Content
+      </h1>
 
       <label
         className={vstack({
-          gap: "4px",
+          gap: "0.25rem",
           alignItems: "flex-start",
           width: "100%",
         })}
@@ -27,7 +29,7 @@ export const App = () => (
 
       <label
         className={vstack({
-          gap: "4px",
+          gap: "0.25rem",
           alignItems: "flex-start",
           width: "100%",
         })}

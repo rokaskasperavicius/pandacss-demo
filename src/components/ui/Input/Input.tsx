@@ -9,7 +9,7 @@ export const Input = ({ ...props }: Props) => (
   <input
     className={css({
       border: "1px solid black",
-      rounded: "4px",
+      rounded: "0.25rem",
       width: "100%",
       height: "2.5rem",
       paddingX: "1rem",
